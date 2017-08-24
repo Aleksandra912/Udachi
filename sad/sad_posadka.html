@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>sad_posadka</title>
+    <meta charset="utf-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="../../Udachi/css/sad_posadka.css" type="text/css" />
+    <link rel="shortcut icon" href="../../Udachi/img/favicon.jpg" type="image/x-icon" />
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var w = $(window).width();
+        if (w <= 768) {
+          $(".main_left").html($(".main_left").html() + $(".main_right").html());
+          $(".main_right").remove();
+        }
+        if (w <= 600) {
+          var h2 = $(".layout_slayder h2");
+          $(".layout_slayder h2").remove();
+          $(h2).prependTo(".layout_slayder");
+        }
+        if (w <= 384) {
+          $(".top-br").replaceWith("<br />");
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <layout class="layout">
+      <div class="layout_logo">
+        <img src="../img/logo.png">
+      </div>
+      <header class="layout_header">
+        <nav class="header-nav">
+          <ul>
+            <li>
+              <a href="../../Udachi/first.html">
+                <span> Главная </span>
+              </a>
+            </li>
+            <li>
+              <a class="active" href="../../Udachi/first.html">
+                <span> Каталог </span>
+              </a>
+            </li>
+            <li>
+              <a href="../../Udachi/poleznosti.html">
+                <span> Полезности </span>
+              </a>
+            </li>
+            <li>
+              <a  href="../../Udachi/stolzakazov.html">
+                <span> Стол заказов </span>
+              </a>
+            </li>
+            <li>
+              <a href="../../Udachi/kontakty.html">
+                <span> Контакты </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="top_search">
+          <form class="search">
+            <input class="search-text" type="text" name="search" placeholder="Поиск">
+            <input class="search-submit" type="submit" value="">
+          </form>
+        </div>
+      </header>
+      <div class="clear"></div>
+
+      <div class="layout_main-container">
+        <div class="main_left">
+          <div class="main_block">
+            <div class="block-header">Каталог</div>
+            <nav class="left-content">
+              <div>
+                <a class="active" href="../../Udachi/hoz/hoz.html"> Хозтовары </a>
+                <div>
+                  <a href="../../Udachi/hoz/hoz_bh.html">Бытовая химия</a>
+                </div>
+                <div>
+                  <a href="../../Udachi/hoz/hoz_kosmetika.html"> Косметика </a>
+                </div>
+                <div>
+                  <a href="../../Udachi/hoz/hoz_uborka.html"> Все для уборки </a>
+                </div>
+              </div>
+              <div>
+                <a href="../../Udachi/sad/sad1.html">Сад и огород</a>
+                <div>
+                  <a href="../../Udachi/sad/sad_posadka.html"> Посадочный материал </a>
+                  <div>
+                    <a href="../../Udachi/sad/sad_posadka_semena.html">Семена</a>
+                  </div>
+                  <div>
+                    <a href="../../Udachi/sad/sad_posadka_sagenci.html"> Саженцы </a>
+                  </div>
+                  <div>
+                    <a href="../../Udachi/sad/sad_posadka_rassada.html"> Рассада </a>
+                  </div>
+                </div>
+                <div>
+                  <a href="../../Udachi/sad/sad_instrument.html"> Инструмент садовый </a>
+                </div>
+                <div>
+                  <a href="../../Udachi/sad/sad_inventar.html"> Садовый инвентарь </a>
+                </div>
+                <div>
+                  <a href="../../Udachi/sad/sad_poliv.html"> Полив </a>
+                </div>
+                <div>
+                  <a href="../../Udachi/sad/sad_rassada.html"> Все для рассады </a>
+                </div>
+                <div>
+                  <a href="../../Udachi/sad/sad_himiya.html"> Химия для сада и огорода </a>
+                </div>
+                <div>
+                  <a href="../../Udachi/sad/sad_obustroystvo.html"> Обустройство сада </a>
+                </div>
+                <div>
+                  <a href="../../Udachi/sad/sad_grunt.html"> Грунт </a>
+                </div>
+                <div>
+                  <a href="../../Udachi/sad/sad_parnik.html"> Парники </a>
+                </div>
+              </div>
+              <div>
+                <a href="../../Udachi/winter/winter1.html">Зимний ассортимент</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="main_center">
+          <div class="main_center-content">
+            <h3> Посадочный материал </h3>
+            <div class="content_catalog">
+              <div class="catalog__item">
+                <a href="../../Udachi/sad/sad_posadka_semena.html">
+                  <div class="massage__text" >
+                    <p>Семена </p>
+                  </div>
+                  <img class="pict" src="../../Udachi/img/">
+                </a>
+              </div>
+              <div class="catalog__item">
+                <a href="../../Udachi/sad/sad_posadka_sagenci.html">
+                  <div class="massage__text" >
+                    <p>Саженцы </p>
+                  </div>
+                  <img class="pict" src="../../Udachi/img/">
+                </a>
+              </div>
+              <div class="catalog__item">
+                <a href="../../Udachi/sad/sad_posadka_rassada.html">
+                  <div class="massage__text" >
+                    <p>Рассада</p>
+                  </div>
+                  <img class="pict" src="../../Udachi/img/">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="layout_footer">
+        <div class="footer_conteiner">
+          <p>ООО "Мирт"<br/> ИНН: 5445024319 <br/>КПП: 544501001</p>
+        </div>
+      </div>
+    </layout>
+  </body>
+</html>

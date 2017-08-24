@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hoz_kosmetika</title>
+    <meta charset="utf-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="../../Udachi/css/hoz_kosmetika.css" type="text/css" />
+    <link rel="shortcut icon" href="../../Udachi/img/favicon.jpg" type="image/x-icon" />
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var w = $(window).width();
+        if (w <= 768) {
+          $(".main_left").html($(".main_left").html() + $(".main_right").html());
+          $(".main_right").remove();
+        }
+        if (w <= 600) {
+          var h2 = $(".layout_slayder h2");
+          $(".layout_slayder h2").remove();
+          $(h2).prependTo(".layout_slayder");
+        }
+        if (w <= 384) {
+          $(".top-br").replaceWith("<br />");
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <layout class="layout">
+      <div class="layout_logo">
+        <img src="../img/logo.png">
+      </div>
+      <header class="layout_header">
+        <nav class="header-nav">
+          <ul>
+            <li>
+              <a href="../../Udachi/first.html">
+                <span> Главная </span>
+              </a>
+            </li>
+            <li>
+              <a class="active" href="../../Udachi/first.html">
+                <span> Каталог </span>
+              </a>
+            </li>
+            <li>
+              <a href="../../Udachi/poleznosti.html">
+                <span> Полезности </span>
+              </a>
+            </li>
+            <li>
+              <a  href="../../Udachi/stolzakazov.html">
+                <span> Стол заказов </span>
+              </a>
+            </li>
+            <li>
+              <a href="../../Udachi/kontakty.html">
+                <span> Контакты </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="top_search">
+          <form class="search">
+            <input class="search-text" type="text" name="search" placeholder="Поиск">
+            <input class="search-submit" type="submit" value="">
+          </form>
+        </div>
+      </header>
+      <div class="clear"></div>
+
+      <div class="layout_main-container">
+        <div class="main_left">
+          <div class="main_block">
+            <div class="block-header">Каталог</div>
+            <nav class="left-content">
+              <div>
+                <a class="active" href="../../Udachi/hoz/hoz.html"> Хозтовары </a>
+                <div>
+                  <a href="../../Udachi/hoz/hoz_bh.html">Бытовая химия</a>
+                </div>
+                <div>
+                  <a href="../../Udachi/hoz/hoz_kosmetika.html"> Косметика </a>
+                </div>
+                <div>
+                  <a href="../../Udachi/hoz/hoz_uborka.html"> Все для уборки </a>
+                </div>
+              </div>
+              <div>
+                <a href="../../Udachi/sad/sad1.html">Сад и огород</a>
+                <div>
+                  <a href="../../Udachi/sad/sad_posadka.html"> Посадочный материал </a>
+                  <div>
+                    <a href="../../Udachi/sad/sad_posadka_semena.html">Семена</a>
+                  </div>
+                  <div>
+                    <a href="../../Udachi/sad/sad_posadka_sagenci.html"> Саженцы </a>
+                  </div>
+                  <div>
+                    <a href="../../Udachi/sad/sad_posadka_rassada.html"> Рассада </a>
+                  </div>
+                </div>
+                <div>
+                  <a href="../../Udachi/sad/sad_instrument.html"> Инструмент садовый </a>
+                </div>
+                <div>
+                  <a href="../../Udachi/sad/sad_inventar.html"> Садовый инвентарь </a>
+                </div>
+                <div>
+                  <a href="../../Udachi/sad/sad_poliv.html"> Полив </a>
+                </div>
+                <div>
+                  <a href="../../Udachi/sad/sad_rassada.html"> Все для рассады </a>
+                </div>
+                <div>
+                  <a href="../../Udachi/sad/sad_himiya.html"> Химия для сада и огорода </a>
+                </div>
+                <div>
+                  <a href="../../Udachi/sad/sad_obustroystvo.html"> Обустройство сада </a>
+                </div>
+                <div>
+                  <a href="../../Udachi/sad/sad_grunt.html"> Грунт </a>
+                </div>
+                <div>
+                  <a href="../../Udachi/sad/sad_parnik.html"> Парники </a>
+                </div>
+              </div>
+              <div>
+                <a href="../../Udachi/winter/winter1.html">Зимний ассортимент</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <div class="main_center">
+          <div class="main_center-content">
+            <h3> Косметика </h3>
+            <div class="content_catalog">
+              <div class="catalog__item">
+                <div class="massage__text" >
+                  <p>Грабли веерные <br/> пластинчатые </p>
+                </div>
+                <img class="pict" src="../../Udachi/img/grabli1.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Грабли веерные <br/> проволочные</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/grabli2.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Грабли веерные<br/> проволочные малые</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/grabli3.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Грабли веерные<br/> пластинчатые малые</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/grabli4.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Грабли веерные<br/>проволочные 22 зубца</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/grabli5.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Грабли <br/>с повернутым зубом<br/> (12 зубьев)<br/>.</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/grabli6.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Грабли веерные<br/>проволочные <br/>15 зубцов<br/>раздвижные<br/>металл. черенок</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/grabli7.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Грабли <br/>5-зубые<br/>дерев. черенок</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Вилы<br/> садово-огородные<br/> 4-рогие</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/vili1.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Лопата<br/> штыковая б/ч</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/lopata1.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Лопата <br/>штыковая прямая б/ч</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/lopata2.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Лопата<br/> совковая б/ч</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/lopata3.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Лопата<br/> совковая <br/>рельсовая сталь</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/lopata4.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Лопата <br/> штык. универсал.<br/> рельсовая сталь</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/lopata5.png">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Лопата <br/> штык. остр-ная <br/>рельсовая сталь</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/lopata6.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Лопата комбинированная<br/>металлический черенок</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/lopata7.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Лопата штыковая, металлизированный черенок</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/lopata8.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Ручка для черенка<br/>d=32 мм, V-образная<br/>усиленная</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/ruchka.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p> Мотыга <br/> лезвие 15 см <br/> без черенка</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/motiga.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Полольник<br/>лезвие 12 см<br/>без черенка</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/pololnik.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Полольник<br/>лезвие 25 см <br/> "Меркурий"</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/pololnik1.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Тяпка радиусная<br/>лезвие 24 см<br/>"Венера"</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/pololnik2.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Тяпка радиусная<br/>лезвие 23 см<br/>алюминиевый черенок</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/pololnik4.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Рыхлитель<br/>длина 30 см<br/>3 зубца</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/rih1.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Рыхлитель <br/>длина 28 см<br/>пластиковая ручка</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/rih2.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Картофелекопалка <br/> без черенка<br/>"Урожай</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/kartof.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Рыхлитель <br/>ширина копки 42 см<br/> без черенка</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/pih4.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Рыхлитель <br/>ширина копки 55 см<br/>2 ручки без черенка</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/rih3.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Мотыжка<br/> комбинированная<br/>длина 30 см</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/motiga2.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Мотыжка<br/> комбинированная<br/>длина 50 см</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/motiga3.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Вилка посадочная<br/>длина 33 см<br/>деревянная ручка</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/vil1.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Вилка посадочная<br/>длина 33 см<br/>деревянная ручка</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/vil2.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Вилка посадочная<br/>длина 28 см<br/>прорезиненная ручка</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/vil3.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Корнеудалитель<br/>длина 34 см<br/>деревянная ручка</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/korn1.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Корнеудалитель<br/>длина 28 см<br/>деревянная ручка</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/korn2.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Корнеудалитель<br/>длина 40 см<br/>пластиковая ручка</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/korn3.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Корнеудалитель <br/>нержавеющая сталь</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/korn4.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Серп "Травник"<br/>47 см</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/serp.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Ножовка<br/> прямая </p>
+                </div>
+                <img class="pict" src="../../Udachi/img/noh1.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Ножовка<br/> складная</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/noh2.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Совок посадочный<br/>длина 36 см<br/>деревянная ручка</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/sov1.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Совок посадочный<br/>длина 34 см<br/>деревянная ручка</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/sov2.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Совок посадочный<br/>длина 37 см<br/>деревянная ручка</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/sov3.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Совок посадочный<br/>длина 33 см<br/>деревянная ручка</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/sov4.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Черенок деревянный<br/>d=40 мм, длина 120 см<br/>1 сорт</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/cher1.jpg">
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text">
+                  <p>Черенок деревянный<br/>d=30 мм, длина 120 см<br/>1 сорт</p>
+                </div>
+                <img class="pict" src="../../Udachi/img/cher1.jpg">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="layout_footer">
+        <div class="footer_conteiner">
+          <p>ООО "Мирт"<br/> ИНН: 5445024319 <br/>КПП: 544501001</p>
+        </div>
+      </div>
+    </layout>
+  </body>
+</html>
