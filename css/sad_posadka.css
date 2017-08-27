@@ -91,7 +91,7 @@ body {
 }
 
 .search-submit{
-    background: url("../Udachi/img/icon_search.png") no-repeat center center;
+    background: url("../img/icon_search.png") no-repeat center center;
     border: none;
     cursor: pointer;
     height: 22px;
@@ -163,28 +163,28 @@ body {
 }
 
 .main_block nav div div {
-    background: url("../../Udachi/img/menu_sep.png") no-repeat center bottom;
+    background: url("../img/menu_sep.png") no-repeat center bottom;
     padding-left: 20px;
 }
 
 .main_block nav div {
-    background: url("../../Udachi/img/menu_sep.png") no-repeat center bottom;
+    background: url("../img/menu_sep.png") no-repeat center bottom;
 }
 
 .main_block nav div a{
     text-decoration: none;
-    background: url("../../Udachi/img/arrow_menu.png") no-repeat 8px center;
+    background: url("../img/arrow_menu.png") no-repeat 8px center;
     color: #444953;
     display: block;
     padding: 10px 0 10px 20px;
 }
 
 .main_block nav div:last-child a {
-    background: url("../../Udachi/img/arrow_menu.png") no-repeat 8px center;
+    background: url("../img/arrow_menu.png") no-repeat 8px center;
 }
 
 .main_block nav div a:hover, .main_block nav div a.active{
-    background: url("../../Udachi/img/arrow_menu_active.png") no-repeat 8px center #d3d3d3;
+    background: url("../img/arrow_menu_active.png") no-repeat 8px center #d3d3d3;
     border-left: 2px solid #c8504b;
 }
 
