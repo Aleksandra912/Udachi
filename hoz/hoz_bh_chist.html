@@ -13,7 +13,6 @@
         var w = $(window).width();
         if (w <= 768) {
           $(".main_left").html($(".main_left").html() + $(".main_right").html());
-          $(".main_right").remove();
         }
         if (w <= 600) {
           var h2 = $(".layout_slayder h2");
@@ -277,6 +276,7 @@
           </div>
         </div>
       </div>
+      <div class="clear"></div>
       <div class="layout_footer">
         <div class="footer_conteiner">
           <p>ООО "Мирт"<br/> ИНН: 5445024319 <br/>КПП: 544501001</p>
