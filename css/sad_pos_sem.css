@@ -203,6 +203,11 @@ body {
     margin-top: 20px;
 }
 
+.main_center-content p {
+    text-align: center;
+    font-size: 120%;
+}
+
 .content_catalog{
     width: 100%;
     display: flex;
