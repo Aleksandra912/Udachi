@@ -212,12 +212,12 @@ body {
 }
 
 .catalog__item{
-    margin: 10px 75px;
+    margin: 10px 20px;
     background: linear-gradient(180deg, #8BC34A 0%, #F1F8E9 100%);
     border: 1px solid #7CB342;
     border-radius: 5%;
     padding: 10px;
-    width: 300px;
+    width: 280px;
 }
 
 .catalog__item .pict{
