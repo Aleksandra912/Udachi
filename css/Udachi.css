@@ -126,15 +126,15 @@ body {
     height: 334px;
 }
 
-.slayder-pic{
-    width:50%;
+.slayder-pic {
+    width: 50%;
     float: left;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .slayder-conteiner{
-    width: 80%;
-    margin: auto;
+    width: 70%;
+    margin: 20px 10px 20px 120px;
 }
 
 .slayder-conteiner h2 {
@@ -151,22 +151,22 @@ body {
     }
     50%{
         color: red;
-        font-size: 500%;
+        font-size: 400%;
     }
     100%{
         color:black;
-        font-size: 400%;
+        font-size: 300%;
     }
 }
 
 h2{
-    animation: anim_h2 4s 10;
+    animation: anim_h2 5s 10;
 }
 
 h2{
     text-align: center;
     text-shadow: 5px 5px 2px #777;
-    font-size: 400%;
+    font-size: 300%;
 }
 
 .layout_main-container{
@@ -174,6 +174,11 @@ h2{
     width: 100%;
     justify-content: space-between;
     margin: 10px 10px;
+}
+
+.main_center-content p{
+    text-align: center;
+    font-size: 120%;
 }
 
 .main_left {
