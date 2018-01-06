@@ -203,7 +203,7 @@ body {
     margin-top: 20px;
 }
 
-.main_center-content p {
+.main_center-content p{
     text-align: center;
     font-size: 120%;
 }
@@ -216,7 +216,7 @@ body {
     padding: 0 0 12px 12px;
 }
 
-.catalog__item{
+.catalog__item {
     margin: 10px;
     background: linear-gradient(180deg, #8BC34A 0%, #F1F8E9 100%);
     border: 1px solid #7CB342;
