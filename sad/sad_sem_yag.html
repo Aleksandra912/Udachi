@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>sad_himiya</title>
+    <meta charset="utf-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <script type="text/javascript" src="../JS/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="../css/sad_sem_yag.css" type="text/css" />
+    <link rel="shortcut icon" href="../img/favicon.jpg" type="image/x-icon" />
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var w = $(window).width();
+        if (w <= 768) {
+          $(".main_left").html($(".main_left").html() + $(".main_right").html());
+          $(".main_right").remove();
+        }
+        if (w <= 600) {
+          var h2 = $(".layout_slayder h2");
+          $(".layout_slayder h2").remove();
+          $(h2).prependTo(".layout_slayder");
+        }
+        if (w <= 384) {
+          $(".top-br").replaceWith("<br />");
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <layout class="layout">
+      <div class="layout_logo">
+        <img src="../img/logo.png">
+      </div>
+      <header class="layout_header">
+        <nav class="header-nav">
+          <ul>
+            <li>
+              <a href="../index.html">
+                <span> Главная </span>
+              </a>
+            </li>
+            <li>
+              <a class="active" href="../index.html#katalog">
+                <span> Каталог </span>
+              </a>
+            </li>
+            <li>
+              <a href="../poleznosti.html">
+                <span> Полезности </span>
+              </a>
+            </li>
+            <li>
+              <a  href="../stolzakazov.html">
+                <span> Стол заказов </span>
+              </a>
+            </li>
+            <li>
+              <a href="../kontakty.html">
+                <span> Контакты </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="top_search">
+          <form class="search">
+            <input class="search-text" type="text" name="search" placeholder="Поиск">
+            <input class="search-submit" type="submit" value="">
+          </form>
+        </div>
+      </header>
+      <div class="clear"></div>
+
+      <div class="layout_main-container">
+        <div class="main_left">
+          <div class="main_block">
+            <div class="block-header">Каталог</div>
+            <nav class="left-content">
+              <div>
+                <a class="active" href="../hoz/hoz.html"> Хозтовары </a>
+                <div>
+                  <a href="../hoz/hoz_bh.html">Бытовая химия</a>
+                </div>
+                <div>
+                  <a href="../hoz/hoz_kosmetika.html"> Косметика </a>
+                </div>
+                <div>
+                  <a href="../hoz/hoz_uborka.html"> Все для уборки </a>
+                </div>
+              </div>
+              <div>
+                <a href="../sad/sad1.html">Сад и огород</a>
+                <div>
+                  <a href="../sad/sad_posadka.html"> Посадочный материал </a>
+                  <div>
+                    <a href="../sad/sad_posadka_semena.html">Семена</a>
+                  </div>
+                  <div>
+                    <a href="../sad/sad_posadka_sagenci.html"> Саженцы </a>
+                  </div>
+                  <div>
+                    <a href="../sad/sad_posadka_rassada.html"> Рассада </a>
+                  </div>
+                </div>
+                <div>
+                  <a href="../sad/sad_instrument.html"> Инструмент садовый </a>
+                </div>
+                <div>
+                  <a href="../sad/sad_inventar.html"> Садовый инвентарь </a>
+                </div>
+                <div>
+                  <a href="../sad/sad_poliv.html"> Полив </a>
+                </div>
+                <div>
+                  <a href="../sad/sad_rassada.html"> Все для рассады </a>
+                </div>
+                <div>
+                  <a href="../sad/sad_himiya.html"> Химия для сада и огорода </a>
+                </div>
+                <div>
+                  <a href="../sad/sad_obustroystvo.html"> Обустройство сада </a>
+                </div>
+                <div>
+                  <a href="../sad/sad_grunt.html"> Грунт </a>
+                </div>
+                <div>
+                  <a href="../sad/sad_parnik.html"> Парники </a>
+                </div>
+              </div>
+              <div>
+                <a href="../winter/winter1.html">Зимний ассортимент</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <div class="main_center">
+          <div class="main_center-content">
+            <h3> Семена ягод </h3>
+            <div class="content_catalog">
+              <div class="catalog__item">
+                <div class="massage__text" >
+                  <p>Арбуз<br/> Огонек </p>
+                </div>
+                <a title="Один из самых популярных сортов. Плод шаровидный, гладкий, темно-зеленый, с едва заметными полосами, массой около 2 кг. Мякоть карминно-красная, нежная, зернистая, сладкая." href="#">
+                  <img class="pict" src="../img/semena/image002.jpg">
+                </a>
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text" >
+                  <p>Арбуз Сахарный малыш <br/>(200% NEW)</p>
+                </div>
+                <a title="Ранний, интенсивно растущий сорт, созревающий через 75 дней от посева. Плоды красивые, округлые, с гладкой темно-зеленой кожурой. Мякоть привлекательного ярко-красного цвета, сочная, сладкая. Средний вес плода 4 кг. Сорт пригоден для хранения и перевозки." href="#">
+                  <img class="pict" src="../img/semena/image004.jpg">
+                </a>
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text" >
+                  <p>Арбуз Астраханский<br/> серия Традиция</p>
+                </div>
+                <a title="Форма плода округлая и удлиненно-округлая. Кора средней толщины, светло-зеленая, кожистая. Масса плода 5,6 кг. Мякоть красная, плотная, нежная, очень сладкая, сочная." href="#">
+                  <img class="pict" src="../img/semena/image006.jpg">
+                </a>
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text" >
+                  <p>Арбуз Эксперсс F1 <br/> серия Семепна от автора</p>
+                </div>
+                <a title="Раннеспелый гибрид. Растение коротко- или среднеплетистое. Длина главной плети не превышает 1,8 м. Плод шаровидный, небольшой, массой 1,8-2,5 кг. Кора тонкая, хрупкая. Мякоть оранжево-красная, нежная, сочная, сладкая." href="#">
+                  <img class="pict" src="../img/semena/image008.jpg">
+                </a>
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text" >
+                  <p>Дыня<br/> Медовая сказка</p>
+                </div>
+                <a title="Среднеранний сорт. Растение среднеплетистое. Плоды округлые, массой 2-4кг. Мякоть очень вкусная, нежная, сказочно сладкая и ароматная. поражается болезнями, обладает хорошей транспортабельностью" href="#">
+                  <img class="pict" src="../img/semena/image010.jpg">
+                </a>
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text" >
+                  <p>Дыня Колхозница<br/> 749/753 </p>
+                </div>
+                <a title="Среднеспелый сорт. Период от полных всходов до первого сбора плодов 77-95 дней. Плод шаровидный, без рисунка, желто-оранжевый, гладкий, сетка иногда встречается, частичная, крупная. Масса плода 0,8-1,3 кг. Мякоть белая, сладкая, нежная, вкусная. Сорт устойчив к неблагоприятным условиям. Транспортабельность плодов хорошая. Урожайность 2,6 кг/кв.м." href="#">
+                  <img class="pict" src="../img/semena/image012.jpg">
+                </a>
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text" >
+                  <p>Дыня Медовка<br/> (0,5г) </p>
+                </div>
+                <a title="Среднеспелый сорт. Растение сильноплетистое. Плод эллиптический, светло-желтый, без рисунка, гладкий, без сетки. Масса плода 2,5-4,2 кг. Мякоть светло-кремовая, средней толщины, тающая, нежная, отличного вкус. Урожайность товарных плодов 1,5-2,0 кг/кв.м. Плоды сохраняют товарные качества в течение 10-12 дней после съема." href="#">
+                  <img class="pict" src="../img/semena/image014.jpg">
+                </a>
+              </div>
+
+              <div class="catalog__item">
+                <div class="massage__text" >
+                  <p>Арбуз Огонек </p>
+                </div>
+                <a title="" href="#">
+                  <img class="pict" src="../img/semena/image002.jpg">
+                </a>
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text" >
+                  <p>Дыня<br/> Медовая лакомка </p>
+                </div>
+                <a title="Сорт среднеспелый, плети длиной 1,5м, с округлыми плодами массой 1,5-2кг." href="#">
+                  <img class="pict" src="../img/semena/image016.jpg">
+                </a>
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text" >
+                  <p>Земляника альпийская<br/> Сентябрьский сюрприз</p>
+                </div>
+                <a title="Лучший многолетний отбор от знаменитого Барона Солемахера! Отличается большей урожайностью и более длительным периодом отдачи урожая. Ягоды крупные и ароматные, отличного вкуса. Всё лето и осень обильный урожай сладких ягод гарантирован! Растения ремонтантные, безусые, зимостойкие." href="#">
+                  <img class="pict" src="../img/semena/image066.jpg">
+                </a>
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text" >
+                  <p>Земляника<br/> Ароматный сюрприз </p>
+                </div>
+                <a title="Смесь лучших ремонтантных, безусых, зимостойких сортов альпийской земляники. Обильно плодоносят до заморозков. Традиционно окрашенные ягоды привлекают насыщенным ярким цветом, а светло-желтые плоды по сладости и аромату даже превосходят красноплодные сорта. Кроме того, благодаря необыкновенной окраске не склевываются птицами." href="#">
+                  <img class="pict" src="../img/semena/image068.jpg">
+                </a>
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text" >
+                  <p>Земляника<br/> Желтое чудо</p>
+                </div>
+                <a title="Ремонтантный, безусый, урожайный, зимостойкий сорт. По вкусу и аромату превосходит все известные красноплодные сорта. Обильно плодоносит до заморозков. Ягоды весом 4-6 г, ароматные, очень сладкие. Зрелые плоды красивого светло-желтого цвета. Не склевываются птицами." href="#">
+                  <img class="pict" src="../img/semena/image070.jpg">
+                </a>
+              </div>
+              <div class="catalog__item">
+                <div class="massage__text" >
+                  <p>Земляника<br/> Александрина</p>
+                </div>
+                <a title="Ремонтантный безусый сорт земляники. Сбор ягод продлится с начала лета до поздней осени. Сорт пригоден для выращивания в домашних условиях (на окне или балконе)." href="#">
+                  <img class="pict" src="../img/semena/image072.jpg">
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="layout_footer">
+        <div class="footer_conteiner">
+          <p>ООО "Мирт"<br/> ИНН: 5445024319 <br/>КПП: 544501001</p>
+        </div>
+      </div>
+    </layout>
+  </body>
+</html>
