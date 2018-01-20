@@ -239,14 +239,18 @@ body {
 .catalog__item{
     margin: 10px;
     background: linear-gradient(180deg, #8BC34A 0%, #F1F8E9 100%);
-    border: 1px solid #7CB342;
-    border-radius: 5%;
+    border: 3px solid #7CB342;
+    border-radius: 3%;
     padding: 10px;
+}
+
+.td {
+    font-size: 50%;
+    font-weight: normal;
 }
 
 .catalog__item .pict{
     width: 300px;
-    height: 228px;
 }
 
 .article_item img{
@@ -265,10 +269,9 @@ h3 {
 
 .massage__text{
     text-align: center;
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 100%;
+    font-weight: normal;
 }
-
 
 .article_img > div {
     margin-top: -45px;
@@ -279,8 +282,6 @@ h3 {
     float: left;
     margin-right: 10px;
 }
-
-
 
 .main_center-content nav{
     font-size: 120%;
@@ -305,64 +306,6 @@ h3 {
 
 .article_item{
     margin-bottom: 10px;
-}
-
-.button_news{
-    background: url("../images/rusakov/arrow_more.png") no-repeat 97% center #f0b017;
-    border: 1px solid #976c05;
-    border-radius: 3px;
-    font-size: 110%;
-    float: right;
-    display: block;
-    padding: 2px 20px 2px 5px;
-    color: #fefaf4;
-    text-decoration: none;
-}
-
-.button_news:hover{
-    border-radius: 0;
-    text-decoration: none !important;
-}
-
-.main_center-content a:hover {
-    text-decoration: underline;
-}
-
-.article-info {
-    background-color: #b1cad5;
-    font-size: 90%;
-    display: inline-block;
-    width: 100%;
-    margin-top: 10px;
-}
-
-.article-info a{
-    text-decoration: none;
-    color: #006699;
-}
-
-.article-info a:hover{
-    text-decoration: underline;
-}
-
-.main_center-article a{
-    text-decoration: none;
-    color: #006699;
-}
-
-.article-info li{
-    float: left;
-    padding: 0 20px 10px 2px;
-}
-
-.article-info li:first-child {
-    list-style: none;
-    margin-left: -15px;
-}
-
-.menu_page{
-    text-align: center;
-    font-size: 110%;
 }
 
 .footer_conteiner{
