@@ -135,13 +135,12 @@
 
         <div class="main_center">
           <div class="main_center-content">
-            <h3> Стол заказов </h3>
-            <p> Страница находится в разработке. Заказы принимаются по телефону - 89133738386.  </p>
-            <form action="./index.html" method="post">
-              <input type="text" name="name" placeholder="Ваше имя"/> <br/>
-              <br/>
-              <textarea name="message" rows="20" cols="50" placeholder="Ваш заказ"></textarea><br/>
-              <input type="submit" value="Отправить"/>
+            <h3> Стол заказов </h3><br/>
+            <form action="form.php" method="post" name="form">
+              <input name="name" type="text" placeholder="Ваше имя" /><br/><br/>
+              <input type="tel" name="tel" placeholder="Номер Вашего телефона"><br/><br/>
+              <textarea name="message" rows="20" cols="50" placeholder="Ваш заказ"></textarea><br/><br/>
+              <input type="submit" value="Отправить" />
             </form>
           </div>
         </div>
