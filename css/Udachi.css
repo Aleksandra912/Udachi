@@ -59,7 +59,7 @@ body {
     display: block;
     text-decoration: none;
     padding: 5px 25px 5px 25px;
-    margin-left: 20px;
+    margin-left: 5px;
     margin-right: 20px;
 }
 
@@ -79,8 +79,8 @@ body {
 
 .top_search{
     float: right;
-    margin-right: 30px;
-    margin-top: 15px;
+    margin-right: 0;
+    margin-top: 0;
 }
 
 .search-text{
@@ -88,6 +88,7 @@ body {
     border-radius: 5px 0 0 5px;
     color: #23252b;
     padding-top: 6px;
+    margin-top: 19px;
 }
 
 .search-submit{
@@ -127,13 +128,14 @@ body {
 }
 
 .slayder-pic {
-    width: 50%;
+    width: 20%;
     float: left;
-    margin-right: 20px;
+    margin-right: 30px;
+    margin-top: 20px;
 }
 
 .slayder-conteiner{
-    width: 70%;
+    width: 100%;
     margin: 20px 10px 20px 120px;
 }
 

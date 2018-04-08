@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
+    <meta name="yandex-verification" content="55da39a2816dd5a7" />
     <script type="text/javascript" src="./JS/jquery-1.10.2.min.js"></script>
     <link rel="stylesheet" href="./css/udachi.css" type="text/css" />
     <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon" />
@@ -31,6 +32,7 @@
       <div class="layout_logo">
         <img src="./img/logo.png">
       </div>
+
       <header class="layout_header">
         <nav class="header-nav">
           <ul>
@@ -59,25 +61,39 @@
                 <span> Контакты </span>
               </a>
             </li>
+            <li>
+              <a href="./akcii.html">
+                <span> Акции </span>
+              </a>
+            </li>
           </ul>
         </nav>
-        <div class="top_search">
-          <form class="search">
-            <input class="search-text" type="text" name="search" placeholder="Поиск временно не работает">
-            <input class="search-submit" type="submit" value="">
+
+        <div class="top_search" onclick="return {'action':'http://9137592807.myjino.ru/poisk.html','arrow':false,'bg':'transparent','fontsize':12,'fg':'#000000','language':'ru','logo':'rb','publicname':'Поиск по udachi-mirt.ru','suggest':true,'target':'_blank','tld':'ru','type':2,'usebigdictionary':true,'searchid':2316408,'input_fg':'#000000','input_bg':'#ffffff','input_fontStyle':'normal','input_fontWeight':'normal','input_placeholder':'Поиск по сайту','input_placeholderColor':'#000000','input_borderColor':'#7f9db9'}">
+          <form action="https://yandex.ru/search/site/" method="get" target="_blank" accept-charset="utf-8">
+            <input type="hidden" name="searchid" value="2316408"/>
+            <input type="hidden" name="l10n" value="ru"/>
+            <input type="hidden" name="reqenc" value=""/>
+            <input class="search-text" type="search" name="text" value="" placeholder="Поиск по сайту"/>
+            <input type="submit" value="Найти"/>
           </form>
         </div>
+        <script type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;if((' '+e.className+' ').indexOf(' top_search ')===-1){e.className+=' top_search';}s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');</script>
+
       </header>
       <div class="clear"></div>
       <div class="layout_slayder">
         <div class="slayder-conteiner">
           <div>
-            <img class="slayder-pic" src="./img/akc2.jpg">
+            <img class="slayder-pic" src="./img/akcii.jpg">
+            <img class="slayder-pic" src="./img/akcii2.jpg">
+            <img class="slayder-pic" src="./img/photo57.jpg">
+            <img class="slayder-pic" src="./img/Rkartof.jpg">
           </div>
-          <div>
+          <!--<div>-->
 
-            <h2> <br/><b>АКЦИЯ!!!</b> </h2>
-          </div>
+            <!--<h2> <br/><b>АКЦИЯ!!!</b> </h2>-->
+          <!--</div>-->
         </div>
       </div>
       <div class="layout_main-container">
@@ -148,7 +164,7 @@
             <p>Добро пожаловать на сайт <b>магазина "У Дачи".</b> <br/>
               Мы находимся по адресу <b>г. Бердск пос.Боровой ул. Речная 38</b>(подробнее в резделе Контакты).<br/>
               Сайт не является интернет-магазином, здесь Вы сможете ознакомиться с нашим ассортиментом.
-              Всю недостающую информацию уточняйте по телефону 89133738386. Так же принимаем заказы на товар, которые на сайте не обнаружили.<br/>
+              Всю недостающую информацию уточняйте по телефону 89133738386, 8-913-908-39-22. Так же принимаем заказы на товар, который на сайте не обнаружили.<br/>
               В разделе "Полезности" найдете много интересной информации по уходу за растениями и обустройству своей дачи. <br/>
               Мы всегда рады Вам помочь!<br/>
             </p>
@@ -160,7 +176,7 @@
                   <img class="pict" src="./img/perevozki.jpg" width="80%">
                 </td>
                 <td>
-                  <p>При заказе товара на сумму от 500 руб мы доставим его Вам домой! Для оформления заказа перейдите по вкладке "Стол заказов". В течении часа мы свяжемся и обговорим удобное для Вас время доставки! Либо позвоните по телефону: 8-913-373-83-86, 8-913-908-39-22<br/>
+                  <p>При заказе товара на сумму от 500 руб мы доставим его Вам домой! Для оформления заказа перейдите по вкладке "Стол заказов". В течении часа мы свяжемся и обговорим удобное для Вас время доставки!<br/> Либо позвоните по телефону: 8-913-373-83-86, 8-913-908-39-22<br/>
                     Для жителей города Бердска доставка бесплатно!</p>
                 </td>
               </tr>
